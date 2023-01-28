@@ -1,0 +1,121 @@
+body{
+  background-color: #000;
+  color:wheat;
+  font-family: sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap:0.5vw;
+  border:1px solid wheat;
+}
+nav > a {
+  width: 100px;
+  height: 50px;
+  margin:1vw;
+  text-decoration: none;
+  border:1px solid wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:wheat;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:3vw 0;
+  /* border: 1px solid red; */
+}
+footer{
+  width: 100%;
+  height: 5vw;
+  background-color: wheat;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(black, wheat);
+}
+
+footer > span{
+  font-size: 3vw;
+  font-family: 'Courier New', Courier, monospace;
+}
+table{
+  border-collapse: collapse;
+}
+/* ******** Ids ********** */
+#IntroductionSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#IntroductionSection > img{
+  width: 30vw;
+}
+
+#SectionSponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#ContainerSponspors{
+  
+  display: flex;
+  gap: 2vw;
+}
+
+#ContainerSponspors > article{
+  background-color: wheat;
+  color:black;
+  width: 10vw;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vw;
+}
+
+#ContainerSponspors >article:nth-child(1){
+  background-image: url("Adidas_Logo.svg.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ContainerSponspors >article:nth-child(2){
+  background-image: url("puma-logo-png-1.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ContainerSponspors >article:nth-child(3){
+  background-image: url("nikelogo.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#socialMediasDiv{
+  border:1px solid wheat;
+}
+#resultOfOperation{
+  color:green;
+  font-weight: bolder;
+}
+#dancingstick{
+ width: 100px;
+  height: 93px;
+  background-color: wheat;
+  position:absolute;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}

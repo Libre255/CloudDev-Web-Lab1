@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MainCss.css">
+  <title>Brian Veliz</title>
+</head>
+<body>
+  <div id="dancingstick"> BV</div>
+  <header>
+    <nav>
+      <a href="./aboutMe.html">About me</a>
+      <a href="./contactMe.html">Contact me</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Brian veliz</h1>
+    <h3>FrontEnd & Cloud Developer</h3>
+  </main>
+ 
+  <!-- Krav på element som måste vara med: 
+
+   h3, ul, ol,  sub, 
+  minst en kommentar, table, tr, td, hr och div  -->
+  <fieldset id="miniräknareContainer">
+    <legend>
+      Calculator
+    </legend>
+    <br>
+    <label for="FirstInput">Write a number</label>
+    <input type="number" name="FirstInput" id="FirstInput">
+    <label for="SecondInput">Write a number</label>
+    <input type="number" name="SecondInput" id="SecondInput">
+    <label for="Result">Result:</label>
+    <span id="resultOfOperation"></span>
+    <br>
+    <label for="TypeOfCalculation">Select operations</label>
+    <br>
+    <label for="Sum">Sum</label>
+    <input type="radio" name="Operations" id="Sum" checked>
+    <label for="Div">Division</label>
+    <input type="radio" name="Operations" id="Div">
+    <label for="Multi">Multiplication</label>
+    <input type="radio" name="Operations" id="Multi">
+    <label for="Sub">Subtraction</label>
+    <input type="radio" name="Operations" id="Sub">
+    <br>
+    <input type="button" value="Submit" id="submitCalculationBtn">
+  </fieldset>
+  <footer>
+    <span>Made 2022</span>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
